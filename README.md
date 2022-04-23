@@ -5,15 +5,15 @@ Ejercicios básicos de Java Script
 # Indice:
 
 
-    1.  Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
-    2.  Escribe un programa de una sola línea que escriba en la pantalla un texto que diga “Hello World” (document.write).
-    3.  Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
-    4.  Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”
-    5.  Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
-    6.  Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
-    7.  Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
-    8.  Escribe un programa que pida un número y diga si es divisible por 2
-    9.  Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a
+    01. Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
+    02. Escribe un programa de una sola línea que escriba en la pantalla un texto que diga “Hello World” (document.write).
+    03. Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
+    04. Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”
+    05. Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
+    06. Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
+    07. Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+    08. Escribe un programa que pida un número y diga si es divisible por 2
+    09. Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a
     10. Escribe un programa que pida una frase y escriba las vocales que aparecen
     11. Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales
     12. Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
