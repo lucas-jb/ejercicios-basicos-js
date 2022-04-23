@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Ejercicios básicos js</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Ejercicios básicos js</h1>
+    </header>
+
+<!----------------------------INICIO-SCRIPT---------------------------------------->
+    <script>
+      var text = prompt("Escribe una frase");
+      var nText = text.length;
+      var cont;
+      var a=0,e=0,i=0,o=0,u=0;
+      for (cont = 0; cont < nText; cont++) {
+        if (text.substr(cont,1) === "a"){a++;};  
+        if (text.substr(cont,1) === "e"){e++;}; 
+        if (text.substr(cont,1) === "i"){i++;}; 
+        if (text.substr(cont,1) === "o"){o++;};
+        if (text.substr(cont,1) === "u"){u++;};
+      }
+      document.write("La letra a aparece " + a + " veces<br>");
+      document.write("La letra e aparece " + e + " veces<br>");
+      document.write("La letra i aparece " + i + " veces<br>");
+      document.write("La letra o aparece " + o + " veces<br>");
+      document.write("La letra u aparece " + u + " veces<br>");
+    </script>
+<!------------------------------FIN-SCRIPT----------------------------------------->
+
+    <noscript>¡Tu buscador no soporta JavaScript!</noscript> 
+
+    <main>
+
+      <aside>
+        <h2>Ejercicios</h2>
+        <ul>
+        <li><a href="ej1.html">Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.</a></li>
+        <li><a href="ej2.html">Escribe un programa de una sola línea que escriba en la pantalla un texto que diga “Hello World” (document.write).</a></li>
+        <li><a href="ej3.html">Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.</a></li>
+        <li><a href="ej4.html">Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”</a></li>
+        <li><a href="ej5.html">Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.</a></li>
+        <li><a href="ej6.html">Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.</a></li>
+        <li><a href="ej7.html">Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.</a></li>
+        <li><a href="ej8.html">Escribe un programa que pida un número y diga si es divisible por 2</a></li>
+        <li><a href="ej9.html">Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a</a></li>
+        <li><a href="ej10.html">Escribe un programa que pida una frase y escriba las vocales que aparecen</a></li>
+        <li><a href="ej11.html">Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales</a></li>
+        <li><a href="ej12.html">Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales</a></li>
+        <li><a href="ej13.html">Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)</a></li>
+        <li><a href="ej14.html">Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)</a></li>
+        <li><a href="ej15.html">Escribir un programa que escriba en pantalla los divisores de un número dado</a></li>
+        <li><a href="ej16.html">Escribir un programa que escriba en pantalla los divisores comunes de dos números dados</a></li>
+        <li><a href="ej17.html">Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <footer>
+      <p>©Copyright 2022 Lucas Juárez. Todos los derechos revertidos.</p>
+    </footer>
+
+  </body>
+</html>
