@@ -1,7 +1,9 @@
 # ejercicios-basicos-js
 Ejercicios básicos de Java Script
 
-Indice:
+
+# Indice:
+
     Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
     Escribe un programa de una sola línea que escriba en la pantalla un texto que diga “Hello World” (document.write).
     Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
