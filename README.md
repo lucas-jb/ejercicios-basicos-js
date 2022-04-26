@@ -24,7 +24,193 @@ Ejercicios básicos de Java Script
     17. Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
 ```html
+    <script>
+      alert( 'Hello, world!' );    
+    </script>
+```
+```html
+    <script>
+      document.write( 'Hello, world!' );    
+    </script>
+```
+```html
+    <script>
+      document.write( 3 + 5 );    
+    </script>
+```
+```html
+    <script>
+      var nombre = prompt("Escribe tu nombre");
+      document.write("Hola "+nombre);
+    </script>
+```
+```html
+    <script>
+      var n1 = prompt("Escribe un número");
+      var n2 = prompt("Escribe otro número");
+      document.write("El resultado de la suma es: "+ ( parseInt(n1)+ parseInt(n2) ) );
+    </script>
+```
+```html
+    <script>
+      var n1 = prompt("Escribe un número");
+      var n2 = prompt("Escribe otro número");
+      n1 = parseInt(n1);
+      n2 = parseInt(n2);
+      if (n1 >= n2) {
+        document.write(n1);
+      } else {
+        document.write(n2);
+      }
+    </script>
+```
+```html
+    <script>
+      var n1 = prompt("Escribe un número");
+      var n2 = prompt("Escribe otro número");
+      var n3 = prompt("Escribe otro número");
+      n1 = parseInt(n1);
+      n2 = parseInt(n2);
+      n3 = parseInt(n3);
+      if (n1 > n2 && n1 > n3) {
+        document.write(n1);
+      } else if (n2 > n3) {
+        document.write(n2);
+      } else {
+        document.write(n3);
+      }  
+    </script>
+```
+```html
+    <script>
+      var n1 = prompt("Escribe un número");
+      if (n1 % 2 === 0) {
+        document.write("Es divisible por 2");
+      } else {
+        document.write("No es divisible por 2");
+      }
+    </script>
+```
+```html
+    <script>
+      var text = prompt("Escribe una frase");
+      var nText = text.length;
+      var i;
+      var cont=0;
+      for (i = 0; i < nText; i++) {
+        if (text.substr(i,1) === "a") {
+          cont = cont + 1;
+        }
+      }
+      document.write("La letra a aparece " + cont + " veces en la frase");
+    </script>
+```
+```html
+    <script>
+      var text = prompt("Escribe una frase");
+      var nText = text.length;
+      var i;
+      var lista = [];
+      for (i = 0; i < nText; i++) {
+        if (text.substr(i,1) === "a" || text.substr(i,1) === "e" || text.substr(i,1) === "i" || text.substr(i,1) === "o" || text.substr(i,1) === "u") {
+          lista.push(text.substr(i,1));
+        }
+      }
+      document.write("Aparecen las siguientes vocales: (" + lista + ")");
+    </script>
+```
+```html
 <script>
-    alert( 'Hello, world!' );    
+  var text = prompt("Escribe una frase");
+  var nText = text.length;
+  var i;
+  var cont=0;
+  for (i = 0; i < nText; i++) {
+    if (text.substr(i,1) === "a" || text.substr(i,1) === "e" || text.substr(i,1) === "i" || text.substr(i,1) === "o" || text.substr(i,1) === "u") {
+      cont = cont + 1;
+    }
+  }
+  document.write("Aparecen " + cont + " veces vocales en la frase");
 </script>
+```
+```html
+    <script>
+      var text = prompt("Escribe una frase");
+      var nText = text.length;
+      var cont;
+      var a=0,e=0,i=0,o=0,u=0;
+      for (cont = 0; cont < nText; cont++) {
+        if (text.substr(cont,1) === "a"){a++;};  
+        if (text.substr(cont,1) === "e"){e++;}; 
+        if (text.substr(cont,1) === "i"){i++;}; 
+        if (text.substr(cont,1) === "o"){o++;};
+        if (text.substr(cont,1) === "u"){u++;};
+      }
+      document.write("La letra a aparece " + a + " veces<br>");
+      document.write("La letra e aparece " + e + " veces<br>");
+      document.write("La letra i aparece " + i + " veces<br>");
+      document.write("La letra o aparece " + o + " veces<br>");
+      document.write("La letra u aparece " + u + " veces<br>");
+    </script>
+```
+```html
+    <script>
+      var i = prompt("Introduce un número");
+      if (i%2==0){document.write("Es divisible entre 2<br>");}
+      else if (i%3==0){document.write("Es divisible entre 3<br>");}
+      else if (i%5==0){document.write("Es divisible entre 5<br>");}
+      else if (i%7==0){document.write("Es divisible entre 7<br>");};
+    </script>
+```
+```html
+    <script>
+      var i = prompt("Introduce un número");
+      if (i%2==0){document.write("Es divisible entre 2<br>");};
+      if (i%3==0){document.write("Es divisible entre 3<br>");};
+      if (i%5==0){document.write("Es divisible entre 5<br>");};
+      if (i%7==0){document.write("Es divisible entre 7<br>");};
+    </script>
+```
+```html
+    <script>
+      var numero = prompt("Introduce un número");
+      var divisores = [];
+      for(var i = 1; i <= numero; i++){
+        if(numero % i == 0){
+          divisores.push(i);
+        }
+      }
+      document.write("Los divisores de "+numero+" son: "+divisores);
+    </script>
+```
+```html
+    <script>
+      //programa que escriba en pantalla los divisores comunes de dos números dados
+      var num1 = prompt("Introduce el primer número"); 
+      var num2 = prompt("Introduce el segundo número");
+      var divisores = [];
+      for (var i = 1; i <= num1; i++) {
+        if (num1 % i == 0 && num2 % i == 0) {
+          divisores.push(i);
+        }
+      }
+      document.write("Los divisores comunes de "+num1+" y "+num2+" son: "+divisores);
+    </script>
+```
+```html
+    <script>
+      var numero = prompt("Introduce un número");
+      parseInt(numero);
+      var contador = 0;
+      for(var i = 1; i <= numero; i++){
+        if(numero % i == 0){
+          contador++;
+        }
+      }
+      if(contador == 2){
+        document.write("Es primo");
+      }else{
+        document.write("No es primo");
+      }
+    </script>
 ```
