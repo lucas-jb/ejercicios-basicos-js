@@ -1,5 +1,5 @@
 # ejercicios-basicos-js
-Ejercicios básicos de Java Script
+Ejercicios básicos de Java Script perfectos para comenzar a entender el lenguaje.
 
 
 # Indice:
@@ -24,6 +24,7 @@ Ejercicios básicos de Java Script
     17. Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
 # Ejercicio 01
+Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
 ```html
     <script>
       alert( 'Hello, world!' );    
