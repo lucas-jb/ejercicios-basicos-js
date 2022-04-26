@@ -23,27 +23,32 @@ Ejercicios básicos de Java Script
     16. Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
     17. Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
+# Ejercicio 01
 ```html
     <script>
       alert( 'Hello, world!' );    
     </script>
 ```
+# Ejercicio 02
 ```html
     <script>
       document.write( 'Hello, world!' );    
     </script>
 ```
+# Ejercicio 03
 ```html
     <script>
       document.write( 3 + 5 );    
     </script>
 ```
+# Ejercicio 04
 ```html
     <script>
       var nombre = prompt("Escribe tu nombre");
       document.write("Hola "+nombre);
     </script>
 ```
+# Ejercicio 05
 ```html
     <script>
       var n1 = prompt("Escribe un número");
@@ -51,6 +56,7 @@ Ejercicios básicos de Java Script
       document.write("El resultado de la suma es: "+ ( parseInt(n1)+ parseInt(n2) ) );
     </script>
 ```
+# Ejercicio 06
 ```html
     <script>
       var n1 = prompt("Escribe un número");
@@ -64,6 +70,7 @@ Ejercicios básicos de Java Script
       }
     </script>
 ```
+# Ejercicio 07
 ```html
     <script>
       var n1 = prompt("Escribe un número");
@@ -81,6 +88,7 @@ Ejercicios básicos de Java Script
       }  
     </script>
 ```
+# Ejercicio 08
 ```html
     <script>
       var n1 = prompt("Escribe un número");
@@ -91,6 +99,7 @@ Ejercicios básicos de Java Script
       }
     </script>
 ```
+# Ejercicio 09
 ```html
     <script>
       var text = prompt("Escribe una frase");
@@ -105,6 +114,7 @@ Ejercicios básicos de Java Script
       document.write("La letra a aparece " + cont + " veces en la frase");
     </script>
 ```
+# Ejercicio 10
 ```html
     <script>
       var text = prompt("Escribe una frase");
@@ -119,6 +129,7 @@ Ejercicios básicos de Java Script
       document.write("Aparecen las siguientes vocales: (" + lista + ")");
     </script>
 ```
+# Ejercicio 11
 ```html
 <script>
   var text = prompt("Escribe una frase");
@@ -133,6 +144,7 @@ Ejercicios básicos de Java Script
   document.write("Aparecen " + cont + " veces vocales en la frase");
 </script>
 ```
+# Ejercicio 12
 ```html
     <script>
       var text = prompt("Escribe una frase");
@@ -153,6 +165,7 @@ Ejercicios básicos de Java Script
       document.write("La letra u aparece " + u + " veces<br>");
     </script>
 ```
+# Ejercicio 13
 ```html
     <script>
       var i = prompt("Introduce un número");
@@ -162,6 +175,7 @@ Ejercicios básicos de Java Script
       else if (i%7==0){document.write("Es divisible entre 7<br>");};
     </script>
 ```
+# Ejercicio 14
 ```html
     <script>
       var i = prompt("Introduce un número");
@@ -171,6 +185,7 @@ Ejercicios básicos de Java Script
       if (i%7==0){document.write("Es divisible entre 7<br>");};
     </script>
 ```
+# Ejercicio 15
 ```html
     <script>
       var numero = prompt("Introduce un número");
@@ -183,6 +198,7 @@ Ejercicios básicos de Java Script
       document.write("Los divisores de "+numero+" son: "+divisores);
     </script>
 ```
+# Ejercicio 16
 ```html
     <script>
       //programa que escriba en pantalla los divisores comunes de dos números dados
@@ -197,6 +213,7 @@ Ejercicios básicos de Java Script
       document.write("Los divisores comunes de "+num1+" y "+num2+" son: "+divisores);
     </script>
 ```
+# Ejercicio 17
 ```html
     <script>
       var numero = prompt("Introduce un número");
