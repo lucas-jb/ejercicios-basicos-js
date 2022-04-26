@@ -31,18 +31,21 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 02
+Escribe un programa de una sola línea que escriba en la pantalla un texto que diga “Hello World” (document.write).
 ```html
     <script>
       document.write( 'Hello, world!' );    
     </script>
 ```
 # Ejercicio 03
+Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
 ```html
     <script>
       document.write( 3 + 5 );    
     </script>
 ```
 # Ejercicio 04
+Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”
 ```html
     <script>
       var nombre = prompt("Escribe tu nombre");
@@ -50,6 +53,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 05
+Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
 ```html
     <script>
       var n1 = prompt("Escribe un número");
@@ -58,6 +62,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 06
+Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 ```html
     <script>
       var n1 = prompt("Escribe un número");
@@ -72,6 +77,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 07
+Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
 ```html
     <script>
       var n1 = prompt("Escribe un número");
@@ -90,6 +96,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 08
+Escribe un programa que pida un número y diga si es divisible por 2.
 ```html
     <script>
       var n1 = prompt("Escribe un número");
@@ -101,6 +108,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 09
+Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a.
 ```html
     <script>
       var text = prompt("Escribe una frase");
@@ -116,6 +124,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 10
+Escribe un programa que pida una frase y escriba las vocales que aparecen.
 ```html
     <script>
       var text = prompt("Escribe una frase");
@@ -131,6 +140,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 11
+Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales.
 ```html
 <script>
   var text = prompt("Escribe una frase");
@@ -146,6 +156,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
 </script>
 ```
 # Ejercicio 12
+Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales.
 ```html
     <script>
       var text = prompt("Escribe una frase");
@@ -167,6 +178,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 13
+Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro).
 ```html
     <script>
       var i = prompt("Introduce un número");
@@ -177,6 +189,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 14
+Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible).
 ```html
     <script>
       var i = prompt("Introduce un número");
@@ -187,6 +200,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 15
+Escribir un programa que escriba en pantalla los divisores de un número dado.
 ```html
     <script>
       var numero = prompt("Introduce un número");
@@ -200,6 +214,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 16
+Escribir un programa que escriba en pantalla los divisores comunes de dos números dados.
 ```html
     <script>
       //programa que escriba en pantalla los divisores comunes de dos números dados
@@ -215,6 +230,7 @@ Escribe un programa de una sola línea que haga que aparezca en la pantalla un a
     </script>
 ```
 # Ejercicio 17
+Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad).
 ```html
     <script>
       var numero = prompt("Introduce un número");
