@@ -26,63 +26,63 @@ Ejercicios básicos de Java Script perfectos para comenzar a entender el lenguaj
 # Ejercicio 01
 Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
 ```html
-    <script>
-      alert( 'Hello, world!' );    
-    </script>
+<script>
+    alert( 'Hello, world!' );    
+</script>
 ```
 # Ejercicio 02
 Escribe un programa de una sola línea que escriba en la pantalla un texto que diga “Hello World” (document.write).
 ```html
-    <script>
-      document.write( 'Hello, world!' );    
-    </script>
+<script>
+    document.write( 'Hello, world!' );    
+</script>
 ```
 # Ejercicio 03
 Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
 ```html
-    <script>
-      document.write( 3 + 5 );    
-    </script>
+<script>
+    document.write( 3 + 5 );    
+</script>
 ```
 # Ejercicio 04
 Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”
 ```html
-    <script>
-      var nombre = prompt("Escribe tu nombre");
-      document.write("Hola "+nombre);
-    </script>
+<script>
+    var nombre = prompt("Escribe tu nombre");
+    document.write("Hola "+nombre);
+</script>
 ```
 # Ejercicio 05
 Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
 ```html
-    <script>
-      var n1 = prompt("Escribe un número");
-      var n2 = prompt("Escribe otro número");
-      document.write("El resultado de la suma es: "+ ( parseInt(n1)+ parseInt(n2) ) );
-    </script>
+<script>
+    var n1 = prompt("Escribe un número");
+    var n2 = prompt("Escribe otro número");
+    document.write("El resultado de la suma es: "+ ( parseInt(n1)+ parseInt(n2) ) );
+</script>
 ```
 # Ejercicio 06
 Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 ```html
-    <script>
-      var n1 = prompt("Escribe un número");
-      var n2 = prompt("Escribe otro número");
-      n1 = parseInt(n1);
-      n2 = parseInt(n2);
-      if (n1 >= n2) {
+<script>
+    var n1 = prompt("Escribe un número");
+    var n2 = prompt("Escribe otro número");
+    n1 = parseInt(n1);
+    n2 = parseInt(n2);
+    if (n1 >= n2) {
         document.write(n1);
-      } else {
+    } else {
         document.write(n2);
-      }
-    </script>
+    }
+</script>
 ```
 # Ejercicio 07
 Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
 ```html
-    <script>
-      var n1 = prompt("Escribe un número");
-      var n2 = prompt("Escribe otro número");
-      var n3 = prompt("Escribe otro número");
+<script>
+    var n1 = prompt("Escribe un número");
+    var n2 = prompt("Escribe otro número");
+    var n3 = prompt("Escribe otro número");
       n1 = parseInt(n1);
       n2 = parseInt(n2);
       n3 = parseInt(n3);
